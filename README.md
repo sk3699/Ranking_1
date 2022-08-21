@@ -19,3 +19,6 @@ Eg: Provide file path : /home/sk/test.txt
 2. Asks for user confirmation for ranking data again (y/n). If y, need to provide path for file as mentioned above in 1.
 
 3. Asks for user confirmation for rebuilding the project again (y/n). y to rebuild. n to continue with Ranking.
+
+# For DOStoUNIX issue, run below command
+sed -i -e 's/\r$//' startup.sh
